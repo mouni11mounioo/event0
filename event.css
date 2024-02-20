@@ -1,0 +1,49 @@
+body {
+    font-family: 'Ari', 'Lucida Grande', 'Lucida Sans Unicode'
+    ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:lightskyblue;
+    color:brown;
+    padding: 90px;
+  }
+  
+  header h1 {
+    margin: 5;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .event-card {
+    background-color:lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color:black;
+    color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+  }
+  

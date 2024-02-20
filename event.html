@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Management System</title>
+  <link rel="stylesheet" href="event.css">
+</head>
+<body>
+  <header>
+    <h1>Event Management System</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Add Event</a></li>
+        <li><a href="#">Search</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="event-listing">
+      <h2>Upcoming Events</h2>
+      <div class="event-card">
+        <h3>Birthday</h3>
+        <p>Date: 10-03-2024</p>
+        <p>Time: 20:03PM</p>
+        <p>contact:8888888888</p>
+        <p>Location:guntur</p>
+        <p>Description: Event Description</p>
+      </div>
+      <section id="event-listing">
+        
+        <div class="event-card">
+          <h3>Marraige</h3>
+          <p>Date: 21-03-2024</p>
+          <p>Time: 04:20 AM</p>
+          <p>contact:8888888888</p>
+          <p>Location: Mangalagiri</p>
+          <p>Description: Event Description 1</p>
+        </div>
+        <section id="event-listing">
+
+        <div class="event-card">
+          <h3>Bachelerette party</h3>
+          <p>Date: 27-02-2024</p>
+          <p>Time: 11:00PM</p>
+          <p>contact:8888888888</p>
+          <p>Location: vijayawada</p>
+          <p>Description: Event Description 2</p>
+        </div>
+      </section>
+      
+    </section>
+
+    </section>
+    
+    <section id="add-event">
+      <h2>Add New Event</h2>
+      <form>
+        <label>Title</label>
+        <input type="text" placeholder="Event Title" required>
+        <label>Date</label>
+        <input type="date" required>
+        <label>Time</label>
+        <input type="time" required>
+        <label>Location</label>
+        <input type="text" placeholder="Event Location" required><br>
+        <textarea placeholder="Event Description"></textarea><br>
+        <button type="submit">Add Event</button>
+      </form>
+    </section>
+
+    <section id="search">
+      <h2>Search Events</h2>
+      <input type="text" placeholder="Search...">
+      <button>Search</button>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Event Management System.<br> All rights reserved.</p>
+  </footer>
+</body>
+</html>
